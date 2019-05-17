@@ -12,7 +12,8 @@ export class NavbarComponent implements OnInit {
     { route: 'experience', name: 'Experiencia' },
     { route: 'education', name: 'Educación' },
     { route: 'skills', name: 'Habilidades' },
-    { route: 'projects', name: 'Proyectos' },
+    { route: 'interests', name: 'Intereses' },
+    /* { route: 'projects', name: 'Proyectos' }, */
   ];
 
   constructor() { }
