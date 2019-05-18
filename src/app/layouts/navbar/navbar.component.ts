@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LanguageConfigService } from 'src/app/services/language-config.service';
 
 @Component({
   selector: 'app-navbar',
@@ -8,17 +9,24 @@ import { Component, OnInit } from '@angular/core';
 export class NavbarComponent implements OnInit {
 
   menu = [
-    { route: 'about', name: 'Información' },
-    { route: 'experience', name: 'Experiencia' },
-    { route: 'education', name: 'Educación' },
-    { route: 'skills', name: 'Habilidades' },
-    { route: 'interests', name: 'Intereses' },
+    { route: 'about', name: 'menu.about' },
+    { route: 'experience', name: 'menu.experience' },
+    { route: 'education', name: 'menu.education' },
+    { route: 'skills', name: 'menu.skills' },
+    { route: 'interests', name: 'menu.interests' },
     /* { route: 'projects', name: 'Proyectos' }, */
   ];
 
-  constructor() { }
+  activeLanguage: string;
+
+  constructor(private languageConfigService: LanguageConfigService) { }
 
   ngOnInit() {
+    this.activeLanguage = this.languageConfigService.getLanguage();
   }
 
+  changeLanguage(lang: string) {
+    this.activeLanguage = lang;
+    this.languageConfigService.change(lang);
+  }
 }

@@ -1,0 +1,54 @@
+{
+    "menu": {
+        "about": "Sobre mi",
+        "experience": "Experiencia",
+        "education": "Educación",
+        "skills": "Habilidades",
+        "interests": "Intereses",
+        "projects": "Proyectos",
+        "language": "Cambiar Lenguaje"
+    },
+    "about": {
+        "text": "Soy un apasionado por las tecnologias front-end, poseo conocimiento en el área del diseño web, desarrollo web y metodologias ágiles. Actualmente trabajo como desarrollador web en Créalo Digital, donde he tenido la oportunidad trabajar en aplicaciones monolíticas aplicando tecnologías como Codeigniter y Angular bajo una arquitectura REST, siempre orientado a las buenas practicas y el código limpio y mantenible."
+    },
+    "experience": {
+        "header": "Experiencia",
+        "title": "Desarrollador Web Junior",
+        "company": "Créalo Digital",
+        "text-one": "Trabajé en la construcción de un sistema de gestión de creditos monetarios utilizando arquitectura REST con PHP y consumiendo cada servicio desde un front desarrollado en Angular.",
+        "text-two": "Desarrollé una aplicación movil para consulta de creditos monetarios con el framework Nativescript, implementando la comunicación a un API REST.",
+        "text-three": "Diseñé paginas web estáticas utilizando HTML5, CSS y framework Bootstrap 4."
+    },
+    "education": {
+        "header": "Educación",
+        "degree": "Tecnologia de Análisis y Desarrollo de Sistemas"
+    },
+    "skills": {
+        "header": "Habilidades",
+        "languagesAndTools": "Lenguajes de programación y Herramientas",
+        "workflow": "Flujo de Trabajo",
+        "skill-one": "Mobile-First, Responsive Design",
+        "skill-two": "Equipos Multidisciplinarios",
+        "skill-three": "Desarrollo Ágil & Scrum",
+        "skill-four": "Aprendizaje Continuo"
+    },
+    "interests": {
+        "header": "Intereses",
+        "text-one": "Dedico gran parte de mi tiempo libre a investigar sobre nuevas tecnologias que aparecen continuamente, especialmente en el área del front-end y que puedn contribuir con mi desarrollo profesional y personal.",
+        "text-two": "Tambien disfruto de la lectura de novelas de misterio y fantasia, asi como tambien me genera interes proyectos DIY de carpinteria y construcción."
+    },
+    "months": {
+        "january": "Enero",
+        "february": "Febrero",
+        "march": "Marzo",
+        "april": "Abril",
+        "may": "Mayo",
+        "june": "Junio",
+        "july": "Julio",
+        "august": "Agosto",
+        "september": "Septiembre",
+        "october": "Octubre",
+        "november": "Noviembre",
+        "december": "Diciembre"
+    }
+}

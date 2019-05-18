@@ -1,0 +1,54 @@
+{
+    "menu": {
+        "about": "About",
+        "experience": "Experience",
+        "education": "Education",
+        "skills": "Skills",
+        "interests": "Interests",
+        "projects": "Projects",
+        "language": "Change Language"
+    },
+    "about": {
+        "text": "I'm passionate about front-end technologies, I have knowledge in the area of ​​web design, web development and agile methodologies. I am currently working as a Web Developer at Créalo Digital, where I have had the opportunity to work in monolithic applications applying technologies such as Codeigniter and Angular under a REST architecture, always oriented to good practices and clean and maintainable code."
+    },
+    "experience": {
+        "header": "Experience",
+        "title": "Web Developer Junior",
+        "company": "Créalo Digital",
+        "text-one": "I worked in the construction of a monetary credit management system using REST architecture with PHP and consuming each service from a front-end developed in Angular.",
+        "text-two": "I developed a mobile application to consult monetary credits with the Nativescript framework, implementing the communication to a REST API.",
+        "text-three": "I designed static web pages using HTML5, CSS and Bootstrap 4 framework."
+    },
+    "education": {
+        "header": "Education",
+        "degree": "Technology in Analysis and Development of Information Systems"
+    },
+    "skills": {
+        "header": "Skills",
+        "languagesAndTools": "Programming Languages and Tools",
+        "workflow": "Workflow",
+        "skill-one": "Mobile-First, Responsive Design",
+        "skill-two": "Cross Functional Teams",
+        "skill-three": "Agile Development & Scrum",
+        "skill-four": "Continuous Learning"
+    },
+    "interests": {
+        "header": "Interests",
+        "text-one": "I dedicate my time to research on new technologies that appear continuously, especially in the front-end area and can contribute to my professional and personal growth.",
+        "text-two": "I also enjoy reading mystery and fantasy novels, as well as creating DIY projects for carpentry and construction."
+    },
+    "months": {
+        "january": "January",
+        "february": "February",
+        "march": "March",
+        "april": "April",
+        "may": "May",
+        "june": "June",
+        "july": "Jule",
+        "august": "August",
+        "september": "September",
+        "october": "October",
+        "november": "November",
+        "december": "December"
+    }
+}

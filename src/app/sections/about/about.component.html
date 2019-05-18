@@ -6,11 +6,7 @@
     <div class="subheading mb-5">Palmira - Valle Del Cauca · (316) 649-5876 ·
       <a href="mailto:1992cab@gmail.com">1992cab@gmail.com</a>
     </div>
-    <p class="lead mb-5">Soy Tecnólogo de Sistemas con pasión por las tecnologias front-end, poseo conocimiento en
-      el área del diseño web, desarrollo web y metodologias ágiles. Actualmente trabajo como desarrollador junior en
-      Créalo Digital, donde he tenido la oportunidad trabajar en aplicaciones monolíticas aplicando tecnologías como
-      Codeigniter y Angular bajo una arquitectura REST, siempre orientado a las buenas practicas y el código limpio y
-      mantenible.</p>
+    <p class="lead mb-5">{{ 'about.text' | translate }}</p>
     <div class="social-icons">
       <a href="{{ element.url }}{{ element.path }}/" target="_blank" *ngFor="let element of sharedElements">
         <i class="{{ element.icon }}"></i>

@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +12,8 @@ import { EducationComponent } from './sections/education/education.component';
 import { SkillsComponent } from './sections/skills/skills.component';
 import { ProjectsComponent } from './sections/projects/projects.component';
 import { InterestsComponent } from './sections/interests/interests.component';
+
+import { LanguageConfigModule } from './language-config.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,9 @@ import { InterestsComponent } from './sections/interests/interests.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    LanguageConfigModule.forRoot(['es', 'en'], 'es')
   ],
   providers: [],
   bootstrap: [AppComponent]
