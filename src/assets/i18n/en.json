@@ -1,39 +1,72 @@
 {
-  "menu": {
+  "main": {
     "about": "About",
-    "experience": "Experience",
+    "certifications": "Certifications",
+    "contact": "Contact",
     "education": "Education",
-    "skills": "Skills",
+    "english": "English",
+    "experience": "Experience",
     "interests": "Interests",
+    "intermediate": "Intermediate",
+    "language": "Change Language",
+    "languages": "Languages",
+    "languagesAndTools": "Programming Languages and Tools",
+    "location": "Location",
+    "native": "Native",
     "projects": "Projects",
-    "language": "Change Language"
+    "phone": "Phone",
+    "spanish": "Spanish",
+    "skills": "Skills",
+    "summary": "Professional Summary",
+    "website": "Website",
+    "workflow": "Workflow"
   },
   "about": {
     "text": "I'm passionate about front-end technologies, I have knowledge in the area of ​​web design, web development and agile methodologies. I have had the opportunity to work in monolithic applications applying technologies such as Codeigniter and Angular under a REST architecture, always oriented to good practices and clean and maintainable code."
   },
-  "experience": {
-    "header": "Experience",
-    "title": "Web Developer Junior",
-    "company": "Créalo Digital",
-    "text-one": "I worked in the construction of a monetary credit management system using REST architecture with PHP and consuming each service from a front-end developed in Angular.",
-    "text-two": "I developed a mobile application to consult monetary credits with the Nativescript framework, implementing the communication to a REST API.",
-    "text-three": "I designed static web pages using HTML5, CSS and Bootstrap 4 framework."
-  },
+  "experience": [
+    {
+      "jobPosition": "Software Developer",
+      "company": "NovaIP",
+      "desc": [
+        "I worked on construction a warranty tracking system for travel products, using a multi-tenant architecture with PostgreSQL, Java-based REST APIs and Angular for frontend development.",
+        "I worked on the maintenance and bug resolution of a VOIP call management and ticket tracking platform."
+      ],
+      "start": "December 2019",
+      "end": "January 2020"
+    },
+    {
+      "jobPosition": "Frontend Developer",
+      "company": "Squareball Studios",
+      "desc": [
+        "I worked on the frontend development of a multimedia management system, using Angular under an architecture based on modules and dynamic components and consuming REST APIs based on C #.",
+        "I developed and designed web interfaces from the prototype created in Figma."
+      ],
+      "start": "May 2019",
+      "end": "July 2019"
+    },
+    {
+      "jobPosition": "Software Developer",
+      "company": "Créalo Digital",
+      "desc": [
+        "I worked in the construction of a monetary credit management system using REST architecture with PHP and consuming each service from a front-end developed in Angular.",
+        "I developed a mobile application to consult monetary credits with the Nativescript framework, implementing the communication to a REST API.",
+        "I designed static web pages using HTML5, CSS and Bootstrap 4 framework."
+      ],
+      "start": "May 2018",
+      "end": "May 2019"
+    }
+  ],
   "education": {
-    "header": "Education",
     "degree": "Technology in Analysis and Development of Information Systems"
   },
   "skills": {
-    "header": "Skills",
-    "languagesAndTools": "Programming Languages and Tools",
-    "workflow": "Workflow",
     "skill-one": "Mobile-First, Responsive Design",
     "skill-two": "Cross Functional Teams",
     "skill-three": "Agile Development & Scrum",
     "skill-four": "Continuous Learning"
   },
   "interests": {
-    "header": "Interests",
     "text-one": "I dedicate my time to research on new technologies that appear continuously, especially in the front-end area and can contribute to my professional and personal growth.",
     "text-two": "I also enjoy reading mystery and fantasy novels, as well as creating DIY projects for carpentry and construction."
   },

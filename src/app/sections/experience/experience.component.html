@@ -1,22 +1,18 @@
 <section class="resume-section p-3 p-lg-5 d-flex justify-content-center align-items-center animated fadeIn"
   id="experience">
   <div class="w-100">
-    <h2>{{ 'experience.header' | translate }}</h2>
+    <h2>{{ 'main.experience' | translate }}</h2>
     <hr>
-    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+    <div *ngFor="let exp of experiences"
+      class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
       <div class="resume-content">
-        <h3 class="mb-0">{{ 'experience.title' | translate}}</h3>
-        <div class="subheading mb-3">{{ 'experience.company' | translate}}</div>
-        <p>{{ 'experience.text-one' | translate }}</p>
-        <p>{{ 'experience.text-two' | translate }}</p>
-        <p>{{ 'experience.text-three' | translate }}</p>
+        <h3 class="mb-0">{{ exp.jobPosition }}</h3>
+        <div class="subheading mb-3">{{ exp.company }}</div>
+        <p *ngFor="let text of exp.desc">{{ text }}</p>
       </div>
       <div class="resume-date text-md-right">
-        <span class="text-primary">{{ 'months.may' | translate }} 2018 - {{ 'months.may' | translate}}
-          2019</span>
+        <span class="text-primary">{{ exp.start }} - {{ exp.end }}</span>
       </div>
     </div>
-
   </div>
-
 </section>

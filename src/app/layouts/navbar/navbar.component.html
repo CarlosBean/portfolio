@@ -17,7 +17,7 @@
         <a class="nav-link" [routerLink]="option.route" [translate]="option.name"></a>
       </li>
       <div class="d-flex d-sm-flex d-md-flex d-lg-none align-items-center justify-content-between">
-        <p class="langs m-0">{{ 'menu.language' | translate }}</p>
+        <p class="langs m-0">{{ 'main.language' | translate }}</p>
         <div class="form-inline">
           <button data-toggle="collapse" data-target=".navbar-collapse.show" class="btn btn-link"
             (click)="changeLanguage('es')" [ngClass]="{'text-white':activeLanguage == 'es'}">ES</button>
@@ -27,12 +27,14 @@
       </div>
     </ul>
   </div>
-  <p class="langs m-0 d-none d-sm-none d-md-none d-lg-block">{{ 'menu.language' | translate }}</p>
-  <div class="form-inline mb-2 d-none d-sm-none d-md-none d-lg-block">
-    <button class="btn btn-link" (click)="changeLanguage('es')"
-      [ngClass]="{'text-white':activeLanguage == 'es'}">ES</button>
 
-    <button class="btn btn-link" (click)="changeLanguage('en')"
-      [ngClass]="{'text-white':activeLanguage == 'en'}">EN</button>
+  <div class="form-inline mb-2 d-none d-sm-none d-md-none d-lg-block">
+    <button class="btn btn-link" (click)="changeLanguage('es')">
+      <i style="margin-bottom: 10px;" class="fas fa-globe-americas text-white fa-2x"></i>
+      <span style="display: block;">
+        <span [ngClass]="{'text-white': activeLanguage == 'es'}">ES</span>&nbsp;&nbsp;
+        <span [ngClass]="{'text-white': activeLanguage == 'en'}">EN</span>
+      </span>
+    </button>
   </div>
 </nav>

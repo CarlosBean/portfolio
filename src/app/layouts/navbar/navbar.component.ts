@@ -9,11 +9,11 @@ import { LanguageConfigService } from 'src/app/services/language-config.service'
 export class NavbarComponent implements OnInit {
 
   menu = [
-    { route: 'about', name: 'menu.about' },
-    { route: 'experience', name: 'menu.experience' },
-    { route: 'education', name: 'menu.education' },
-    { route: 'skills', name: 'menu.skills' },
-    { route: 'interests', name: 'menu.interests' },
+    { route: 'about', name: 'main.about' },
+    { route: 'experience', name: 'main.experience' },
+    { route: 'education', name: 'main.education' },
+    { route: 'skills', name: 'main.skills' },
+    { route: 'interests', name: 'main.interests' },
     /* { route: 'projects', name: 'Proyectos' }, */
   ];
 
@@ -26,7 +26,8 @@ export class NavbarComponent implements OnInit {
   }
 
   changeLanguage(lang: string) {
-    this.activeLanguage = lang;
-    this.languageConfigService.change(lang);
+    this.activeLanguage = this.activeLanguage === 'es' ? 'en' : 'es';
+    // this.activeLanguage = lang;
+    this.languageConfigService.change(this.activeLanguage);
   }
 }
