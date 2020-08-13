@@ -1,4 +1,6 @@
 import { Component, OnInit } from "@angular/core";
+import { CurriculumPDFService } from 'src/app/services/curriculumPDF.service';
+
 
 @Component({
   selector: "app-about",
@@ -6,6 +8,8 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./about.component.scss"]
 })
 export class AboutComponent implements OnInit {
+
+  curriculum: any;
   sharedElements: any[] = [
     {
       url: "https://github.com/",
@@ -15,12 +19,15 @@ export class AboutComponent implements OnInit {
     {
       url: "https://www.linkedin.com/in/",
       path: "cbenavides",
-
       icon: "fab fa-linkedin"
     }
   ];
 
-  constructor() {}
+  constructor(public pdfService: CurriculumPDFService) { }
 
-  ngOnInit() {}
+  createPDF() {
+    this.pdfService.createPDF();
+  }
+
+  ngOnInit() { }
 }
