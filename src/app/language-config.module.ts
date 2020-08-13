@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
@@ -27,7 +27,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
 
 export class LanguageConfigModule {
 
-    static forRoot(languageCodes?: string[], defaultLang?: string) {
+    static forRoot(languageCodes?: string[], defaultLang?: string): ModuleWithProviders<LanguageConfigModule> {
         return {
             ngModule: LanguageConfigModule,
             providers: [LanguageConfigService, { provide: 'config', useValue: { default: defaultLang, codes: languageCodes } }
