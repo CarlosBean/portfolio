@@ -10,10 +10,10 @@ export class FooterComponent implements OnInit {
 
   menu = [
     { route: 'about', name: 'main.about', icon: 'fas fa-user' },
-    { route: 'experience', name: 'main.experience', icon: 'fas fa-briefcase' },
-    { route: 'education', name: 'main.education', icon: 'fas fa-graduation-cap' },
+    { route: 'experience', name: 'Exp.', icon: 'fas fa-briefcase' },
+    { route: 'education', name: 'Edu.', icon: 'fas fa-graduation-cap' },
     { route: 'skills', name: 'Skills', icon: 'fas fa-meteor' },
-    { route: 'interests', name: 'main.interests', icon: 'fas fa-shapes' }
+    { route: 'interests', name: 'Hobbies  ', icon: 'fas fa-shapes' }
   ];
 
   activeLanguage: string;
