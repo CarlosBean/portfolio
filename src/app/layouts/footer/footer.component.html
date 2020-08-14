@@ -1,3 +1,16 @@
-<p>
-  footer works!
-</p>
+<nav class="fixed-bottom d-block d-sm-block d-md-block d-lg-none" id="bottomNav">
+  <ul class="nav-row">
+    <li class="nav-item" *ngFor="let option of menu" routerLinkActive="active" [routerLink]="option.route">
+      <a class="nav-link">
+        <i class="{{ option.icon }}"></i>
+        <span class="link-text">{{ option.name | translate }}</span>
+      </a>
+    </li>
+    <!-- <li class="nav-item bg-primary" (click)="changeLanguage()">
+      <a class="nav-link">
+        <i class="fas fa-globe-americas text-white"></i>
+        <span>es</span>
+      </a>
+    </li> -->
+  </ul>
+</nav>

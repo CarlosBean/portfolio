@@ -25,9 +25,8 @@ export class NavbarComponent implements OnInit {
     this.activeLanguage = this.languageConfigService.getLanguage();
   }
 
-  changeLanguage(lang: string) {
+  changeLanguage() {
     this.activeLanguage = this.activeLanguage === 'es' ? 'en' : 'es';
-    // this.activeLanguage = lang;
     this.languageConfigService.change(this.activeLanguage);
   }
 }
