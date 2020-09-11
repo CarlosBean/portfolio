@@ -22,6 +22,8 @@ export class CurriculumPDFService {
     styles: any;
     defaultStyle: any;
 
+    personalWebURL = 'https://carlos-benavides.dev/';
+
     constructor(public translate: TranslateService) {
         this.styles = {
             header: { color: '#29b8e5', fontSize: 16, lineHeight: 1 },
@@ -61,7 +63,7 @@ export class CurriculumPDFService {
                         { style: 'lead', text: this.translate.instant('main.location') },
                         { style: ['bold', 'mb_3'], text: 'Palmira - Valle | Colombia' },
                         { style: 'lead', text: this.translate.instant('main.website') },
-                        { style: ['bold', 'mb_3'], text: 'carlos-benavides.dev' },
+                        { style: ['bold', 'mb_3'], text: 'carlos-benavides.dev', link: this.personalWebURL },
 
                         this.hline(27),
 
