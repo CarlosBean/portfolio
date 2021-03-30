@@ -70,7 +70,7 @@ export class CurriculumPDFService {
                         { style: 'subheader', text: this.translate.instant('main.skills') },
                         {
                             style: ['ul', 'mb_3'],
-                            ul: ['HTML', 'CSS', 'Java 8', 'Spring Boot', 'Javascript', 'NodeJs', 'Typescript', 'Angular', 'MySQL', 'Git']
+                            ul: ['HTML', 'CSS', 'Java', 'Spring Boot', 'Javascript', 'NodeJs', 'Typescript', 'Angular', 'MySQL', 'Git']
                         },
 
                         this.hline(27),

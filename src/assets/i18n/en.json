@@ -27,6 +27,16 @@
   "experience": [
     {
       "jobPosition": "Software Developer",
+      "company": "Davinci Technologies",
+      "desc": [
+        "Trabajé en el mantenimiento de un sistema de vinculaciones para compra de viviendas de Fiduciaria de Bogotá, en dicho sistema tuve la oportunidad de trabajar con el API de firma eléctronica Docusign, integraciones con web services para validación del historial creditício y Sarlaft. Tambien tuve la oportunidad de trabajar con VueJS en frontend enlazado a un backend creado en NodeJs, todo esto bajo un arquitectura en la nube con GCP",
+        "Desarrollé una aplicación web de gestión de solicitudes organizativas para Frontera Energy, en este sistema se utilizaron tecnologias basadas en Javascript, como App Script y el uso de APIs para la manipulación de los servicios de GSuite"
+      ],
+      "start": "Octubre 2020",
+      "end": "Actualmente"
+    },
+    {
+      "jobPosition": "Software Developer",
       "company": "NovaIP",
       "desc": [
         "I worked on construction a warranty tracking system for travel products, using a multi-tenant architecture with PostgreSQL, Java-based REST APIs and Angular for frontend development.",
